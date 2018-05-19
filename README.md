@@ -5,7 +5,7 @@ spring playground
 
 ## Load variables in VCAP_SERVICES
 
-See [Injecting Credentials Into Spring Boot Apps – The Easy Way](http://engineering.pivotal.io/post/spring-boot-injecting-credentials/) .
+See [Injecting Credentials Into Spring Boot Apps – The Easy Way](http://engineering.pivotal.io/post/spring-boot-injecting-credentials/).
 
 When the VCAP_SERVICES system variable is declared in your .bashrc,
 
@@ -39,9 +39,9 @@ localhost
 
 ## Using SQLite with Spring Data
 
-See [Using multiple datasources with Spring Boot and Spring Data]( https://medium.com/@joeclever/using-multiple-datasources-with-spring-boot-and-spring-data-6430b00c02e7) .
+See [Using multiple datasources with Spring Boot and Spring Data]( https://medium.com/@joeclever/using-multiple-datasources-with-spring-boot-and-spring-data-6430b00c02e7).
 
-Hibernete requires two packages: [sqlite-jdbc](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc) and [sqlite-dialect](https://mvnrepository.com/artifact/com.zsoltfabok/sqlite-dialect).
+Hibernete requires two packages to use SQLite: [sqlite-jdbc](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc) and [sqlite-dialect](https://mvnrepository.com/artifact/com.zsoltfabok/sqlite-dialect).
 
 ```bash
 # 1st
