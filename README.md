@@ -30,10 +30,39 @@ export VCAP_SERVICES='
 then you execute this application and can check loaded variables.
 
 ```bash
-$ mvn package
 $ mvn spring-boot:run
 Andromeda
 RitzyAF
 localhost
 3306
+```
+
+## Using SQLite with Spring Data
+
+See [Using multiple datasources with Spring Boot and Spring Data]( https://medium.com/@joeclever/using-multiple-datasources-with-spring-boot-and-spring-data-6430b00c02e7) .
+
+Hibernete requires two packages: [sqlite-jdbc](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc) and [sqlite-dialect](https://mvnrepository.com/artifact/com.zsoltfabok/sqlite-dialect).
+
+```bash
+# 1st
+$ mvn spring-boot:run
+Andromeda
+RitzyAF
+localhost
+3306
+1: MAN MEN MI
+
+# 2nd
+$ mvn spring-boot:run
+Andromeda
+RitzyAF
+localhost
+3306
+1: MAN MEN MI
+2: MAN MEN MI
+
+$ sqlite3 ika.sqlite
+sqlite> select * from ika;
+1|MAN MEN MI
+2|MAN MEN MI
 ```

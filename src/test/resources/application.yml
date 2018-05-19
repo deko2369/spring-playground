@@ -10,3 +10,6 @@ vcap:
         password: testpassword
         host: testhost
         port: 10
+    ikadb:
+      credentials:
+        jdbc-url: jdbc:sqlite:ika.sqlite
