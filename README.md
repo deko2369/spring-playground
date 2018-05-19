@@ -5,7 +5,7 @@ spring playground
 
 See [Injecting Credentials Into Spring Boot Apps – The Easy Way](http://engineering.pivotal.io/post/spring-boot-injecting-credentials/) .
 
-When the VCAP_SERVICE system variable is declared in your .bashrc,
+When the VCAP_SERVICES system variable is declared in your .bashrc,
 
 ```bash
 export VCAP_SERVICES='
