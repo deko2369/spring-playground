@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: INFO
+
+vcap:
+  services:
+    mysqlservice:
+      credentials:
+        username: testuser
+        password: testpassword
+        host: testhost
+        port: 10
