@@ -1,6 +1,8 @@
 spring playground
 =================
 
+[![CircleCI](https://circleci.com/gh/deko2369/spring-playground/tree/master.svg?style=svg)](https://circleci.com/gh/deko2369/spring-playground/tree/master)
+
 ## Load variables in VCAP_SERVICES
 
 See [Injecting Credentials Into Spring Boot Apps – The Easy Way](http://engineering.pivotal.io/post/spring-boot-injecting-credentials/) .
