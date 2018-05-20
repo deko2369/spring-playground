@@ -6,4 +6,4 @@ vcap:
   services:
     ikadb:
       credentials:
-        jdbc-url: jdbc:sqlite:ika.sqlite
+        jdbc-url: jdbc:sqlite:file:ika.sqlite
